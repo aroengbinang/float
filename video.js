@@ -1,7 +1,4 @@
 jQuery( function( $ ) {
-   // Write Code here.
-} );
-
 var $window = $( window ); // 1. Window Object.
 var $featuredMedia = $( "#featured-media" ); // 1. The Video Container.
 var $featuredVideo = $( "#featured-video" ); // 2. The Youtube Video.
@@ -54,4 +51,5 @@ $window
    $featuredVideo.toggleClass( "is-sticky",
      $window.scrollTop() > offset && $featuredVideo.hasClass( "is-playing" )
    );
+} );
 } );
